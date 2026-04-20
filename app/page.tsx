@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 import MapSection from "@/components/MapSection"
 import PhotoPlaceholder from "@/components/PhotoPlaceholder"
 import locationsData from "@/data/locations.json"
@@ -106,10 +107,11 @@ export default function HomePage() {
             const displayCity = cityNames.get(photo.city) ?? photo.city
 
             return (
-              <div
+              <Link
                 key={photo.id}
+                href={`/gallery/${photo.city}`}
                 className="relative overflow-hidden group cursor-pointer"
-                style={{ gridColumn: `span ${photo.colSpan}`, height: photo.height }}
+                style={{ gridColumn: `span ${photo.colSpan}`, height: photo.height, display: "block" }}
               >
                 <Image
                   src={photo.image}
@@ -126,7 +128,7 @@ export default function HomePage() {
                     {displayCity} · {photo.country}
                   </p>
                 </div>
-              </div>
+              </Link>
             )
           })}
         </div>
