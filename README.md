@@ -1,5 +1,9 @@
 # Qiuyuan Chen — Personal Photography Portfolio
 
+demoVideo: https://drive.google.com/file/d/1_vdbxPxZOrEZRVKse-0TVOd30RRqnBD4/view?usp=sharing
+repoUrl: https://github.com/Qiuyuan-Chen/511_q_photography_website
+liveUrl: https://511-q-photography-website.vercel.app/
+
 A minimal, map-based personal photography portfolio built with Next.js. Instead of a standard grid, photos are organized by location — visitors can explore an interactive world map, click on pins to preview photos from that place, and browse full city galleries with stories behind each shot.
 
 Live locations include Colorado (Denver, Estes Park, Colorado Springs), New York City, Xinjiang (Yi Li, Sai Li Mu), and Yunnan (Xi Shuang Ban Na, Pu Er).
