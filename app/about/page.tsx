@@ -15,7 +15,7 @@ export default function AboutPage() {
       <div className="max-w-[600px] mx-auto px-8 py-16">
         {/* Profile photo placeholder */}
         <div className="flex justify-center mb-8">
-          <Image src="/images/profile.jpg" alt="Qiuyuan Chen" width={1000} height={400} className="object-cover" />
+          <Image src="/images/profile.JPG" alt="Qiuyuan Chen" width={1000} height={400} className="object-cover" />
         </div>
 
         {/* Name */}

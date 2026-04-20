@@ -48,7 +48,7 @@ export default function HomePage() {
       {/* ── Section A: Hero ─────────────────────────────────────────── */}
       <section className="relative h-screen">
         {/* Gray placeholder — replace with a real hero photo when ready */}
-        <Image src="/images/hero.jpg" alt="hero" fill className="object-cover" />
+        <Image src="/images/hero.JPG" alt="hero" fill className="object-cover" />
 
         {/* Dark overlay for text legibility over the placeholder */}
         <div className="absolute inset-0 bg-black/25" />
