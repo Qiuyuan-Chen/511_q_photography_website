@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: var(--font-cormorant), 'Cormorant Garamond', serif;
+  --font-sans: var(--font-inter), 'Inter', sans-serif;
+}
+
+/* Reset: no rounded corners, no shadows anywhere */
+*,
+*::before,
+*::after {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+body {
+  background: #ffffff;
+  color: #000000;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Leaflet overrides */
+.leaflet-container {
+  border-radius: 0 !important;
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}

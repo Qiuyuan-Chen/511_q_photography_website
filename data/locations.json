@@ -1,0 +1,42 @@
+[
+  {
+    "region": "XINJIANG",
+    "country": "China",
+    "slug": "xinjiang",
+    "coordinates": [42.0, 85.0],
+    "cities": [
+      { "name": "Yi Li", "slug": "yili", "coordinates": [43.9, 81.3], "photoCount": 16 },
+      { "name": "Sai Li Mu", "slug": "sailemu", "coordinates": [44.6, 81.2], "photoCount": 6 }
+    ]
+  },
+  {
+    "region": "COLORADO",
+    "country": "USA",
+    "slug": "colorado",
+    "coordinates": [39.0, -105.5],
+    "cities": [
+      { "name": "Colorado Springs", "slug": "colorado-springs", "coordinates": [38.8339, -104.8214], "photoCount": 7 },
+      { "name": "Estes", "slug": "estes", "coordinates": [40.3772, -105.5217], "photoCount": 8 },
+      { "name": "Denver", "slug": "denver", "coordinates": [39.7392, -104.9903], "photoCount": 8 }
+    ]
+  },
+  {
+    "region": "YUNNAN",
+    "country": "China",
+    "slug": "yunnan",
+    "coordinates": [24.0, 101.0],
+    "cities": [
+      { "name": "Xi Shuang Ban Na", "slug": "xishuangbanna", "coordinates": [21.9, 100.8], "photoCount": 8 },
+      { "name": "Pu Er", "slug": "puer", "coordinates": [22.8, 101.0], "photoCount": 10 }
+    ]
+  },
+  {
+    "region": "NEW YORK",
+    "country": "USA",
+    "slug": "new-york",
+    "coordinates": [40.7128, -74.006],
+    "cities": [
+      { "name": "New York", "slug": "new-york-city", "coordinates": [40.7128, -74.006], "photoCount": 10 }
+    ]
+  }
+]
